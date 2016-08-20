@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9211FD851D67A5E80048F54D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9211FD841D67A5E80048F54D /* Accelerate.framework */; };
+		928A950C1D666950009405DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A950B1D666950009405DD /* main.m */; };
+		928A950F1D666950009405DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A950E1D666950009405DD /* AppDelegate.m */; };
+		928A95111D666950009405DD /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 928A95101D666950009405DD /* art.scnassets */; };
+		928A95141D666950009405DD /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928A95131D666950009405DD /* GameViewController.m */; };
+		928A95171D666950009405DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928A95151D666950009405DD /* Main.storyboard */; };
+		928A95191D666950009405DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 928A95181D666950009405DD /* Assets.xcassets */; };
+		928A951C1D666950009405DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 928A951A1D666950009405DD /* LaunchScreen.storyboard */; };
+		928A95241D668877009405DD /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928A95231D668877009405DD /* OpenGLES.framework */; };
+		928A95261D668A8A009405DD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928A95251D668A8A009405DD /* AVFoundation.framework */; };
+		928A952A1D66A79E009405DD /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 928A95291D66A79E009405DD /* Photos.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9211FD841D67A5E80048F54D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		928A95071D66694F009405DD /* IOS SCN ScreenRecording.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS SCN ScreenRecording.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928A950B1D666950009405DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		928A950D1D666950009405DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		928A950E1D666950009405DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		928A95101D666950009405DD /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		928A95121D666950009405DD /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		928A95131D666950009405DD /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		928A95161D666950009405DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		928A95181D666950009405DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		928A951B1D666950009405DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		928A951D1D666950009405DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928A95231D668877009405DD /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		928A95251D668A8A009405DD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		928A95291D66A79E009405DD /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		928A95041D66694F009405DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9211FD851D67A5E80048F54D /* Accelerate.framework in Frameworks */,
+				928A952A1D66A79E009405DD /* Photos.framework in Frameworks */,
+				928A95261D668A8A009405DD /* AVFoundation.framework in Frameworks */,
+				928A95241D668877009405DD /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		928A94FE1D66694F009405DD = {
+			isa = PBXGroup;
+			children = (
+				9211FD841D67A5E80048F54D /* Accelerate.framework */,
+				928A95291D66A79E009405DD /* Photos.framework */,
+				928A95251D668A8A009405DD /* AVFoundation.framework */,
+				928A95231D668877009405DD /* OpenGLES.framework */,
+				928A95091D666950009405DD /* IOS SCN ScreenRecording */,
+				928A95081D66694F009405DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		928A95081D66694F009405DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				928A95071D66694F009405DD /* IOS SCN ScreenRecording.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		928A95091D666950009405DD /* IOS SCN ScreenRecording */ = {
+			isa = PBXGroup;
+			children = (
+				928A950D1D666950009405DD /* AppDelegate.h */,
+				928A950E1D666950009405DD /* AppDelegate.m */,
+				928A95101D666950009405DD /* art.scnassets */,
+				928A95121D666950009405DD /* GameViewController.h */,
+				928A95131D666950009405DD /* GameViewController.m */,
+				928A95151D666950009405DD /* Main.storyboard */,
+				928A95181D666950009405DD /* Assets.xcassets */,
+				928A951A1D666950009405DD /* LaunchScreen.storyboard */,
+				928A951D1D666950009405DD /* Info.plist */,
+				928A950A1D666950009405DD /* Supporting Files */,
+			);
+			path = "IOS SCN ScreenRecording";
+			sourceTree = "<group>";
+		};
+		928A950A1D666950009405DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				928A950B1D666950009405DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		928A95061D66694F009405DD /* IOS SCN ScreenRecording */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 928A95201D666950009405DD /* Build configuration list for PBXNativeTarget "IOS SCN ScreenRecording" */;
+			buildPhases = (
+				928A95031D66694F009405DD /* Sources */,
+				928A95041D66694F009405DD /* Frameworks */,
+				928A95051D66694F009405DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS SCN ScreenRecording";
+			productName = "IOS SCN ScreenRecording";
+			productReference = 928A95071D66694F009405DD /* IOS SCN ScreenRecording.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		928A94FF1D66694F009405DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mutexre;
+				TargetAttributes = {
+					928A95061D66694F009405DD = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 859799LX22;
+					};
+				};
+			};
+			buildConfigurationList = 928A95021D66694F009405DD /* Build configuration list for PBXProject "IOS SCN ScreenRecording" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 928A94FE1D66694F009405DD;
+			productRefGroup = 928A95081D66694F009405DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				928A95061D66694F009405DD /* IOS SCN ScreenRecording */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		928A95051D66694F009405DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928A95111D666950009405DD /* art.scnassets in Resources */,
+				928A951C1D666950009405DD /* LaunchScreen.storyboard in Resources */,
+				928A95191D666950009405DD /* Assets.xcassets in Resources */,
+				928A95171D666950009405DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		928A95031D66694F009405DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				928A950F1D666950009405DD /* AppDelegate.m in Sources */,
+				928A95141D666950009405DD /* GameViewController.m in Sources */,
+				928A950C1D666950009405DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		928A95151D666950009405DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928A95161D666950009405DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		928A951A1D666950009405DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				928A951B1D666950009405DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		928A951E1D666950009405DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		928A951F1D666950009405DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		928A95211D666950009405DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "IOS SCN ScreenRecording/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mutexre.IOS-SCN-ScreenRecording";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		928A95221D666950009405DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "IOS SCN ScreenRecording/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mutexre.IOS-SCN-ScreenRecording";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		928A95021D66694F009405DD /* Build configuration list for PBXProject "IOS SCN ScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928A951E1D666950009405DD /* Debug */,
+				928A951F1D666950009405DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		928A95201D666950009405DD /* Build configuration list for PBXNativeTarget "IOS SCN ScreenRecording" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				928A95211D666950009405DD /* Debug */,
+				928A95221D666950009405DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 928A94FF1D66694F009405DD /* Project object */;
+}
